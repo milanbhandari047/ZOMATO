@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/output.css" />
-  </head>
-  <style>
-    .bg-bg {
-      height: 85vh;
-      background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
-    }
-  </style>
-  <body>
-    <div
-      class="bg-bg bg-cover bg-center w-full items-center flex flex-col bg-blue-600 font-serif text-white bg-no-repeat"
-    >
-      <nav
-        class="h-14 w-full max-w-6xl xl:w-11/12 lg:w-11/12 px-6 justify-between items-center"
-      >
-        <div class="md:hidden sm:hidden cursor-pointer lg:flex xl:flex">
-          Get The App
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Zomato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .bg-bg{
+    height: 85vh;
+background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+.bg-bg1{
+    background-image: url(https://s3.envato.com/files/334124691/DSC_8807.jpg);
+}
+  }
+</style>
+<body>
+  <div  class=" bg-bg bg-cover  w-full bg-center flex items-center flex-col bg-blue-600 font-serif text-white bg-no-repeat">
+    <nav class="h-14 w-full max-w-6xl xl:w-11/12 lg:w-11/12 px-5 flex justify-between items-center">
+        <div class="md:hidden sm:hidden xl:flex lg:flex cursor-pointer">Get The App</div>
         <div class="xl:hidden lg:hidden cursor-pointer">
-          <svg class="w-8 xnlxs="https://www.w3.org/200/svg"  viewbox="0 0 24 24 " fill="none" stroke="currentcolor" stroke-width="1" stroke-line="round" stroke-linejoin="round">
-        <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
+            <svg class="w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
         </div>
         <div class="hidden xl:flex lg:flex pr-40">
-          <ul class="flex cursor-pointer gap-6">
-<li>Add Restaurant</li>
-<li>Log In</li>
-<li>Sign Up</li>
-          </ul>
-
+            <ul class="flex cursor-pointer gap-6 ">
+                <li>Add Restaurant</li>
+                <li>Log in</li>
+                <li>sign up</li>
+            </ul>
         </div>
-      </nav>
-
-      <div class="max-w-6xl flex  mt-18 pt-16- xl:m-0 lg:0 sm:m-0 md:m-0 font-serif flex-col justify-center items-center w-full xl:w-9/12 ">
-        <img class="xl:w-64 lg:w-64 sm:w-64 w-32 pt-42" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
-        <div class="flex flex-col sm:mt-6 items-center lg:flex-row xl:flex-row sm:flex-col md:flex-col lg:text-4xl sm:text-3xl md:text-3xl xl:text-4xl xl:gap-2 lg:gap-2 mt-5">
-          <p class="text-3xl  ">Find the best restaurants,</p>
-          <p class="font-sans text-3xl">cafe's and bars in Nepal</p>
-
+    </nav>
+    <div class="mx-w-6xl flex mt-18 pt-16 xl:m-0 lg:0 sm:m-0 md:m-0 font-serif flex-col justify-center items-center w-full xl:w-9/12 bg">
+      <img class="xl:w-64 lg:w-64 sm:w-64 w-32 pt-42" 
+      src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="" >
+      <div class="flex flex-col sm:mt-6 items-center lg:flex-row xl:flex-row sm:flex-col 
+      md:flex-col lg:text-4xl sm:text-3xl md:text-3xl xl:text-4xl xl:gap-2 lg:gap-2 mt-5  ">
+        <p class="text-3xl ">Find the best restaurants,</p>
+        <p class="font-sans text-3xl">cafés and bars in Nepal</p>
+      </div>
+      <div>
+        <div class="hidden xl:flex md:flex lg:flex sm:flex
+         rounded-lg mt-10 bg-white w-18 ">
+          <div class="h-12 w-12 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#2E1310" width="20"
+           height="20" viewBox="0 0 24 24">
+            <path d="M18,4.48a8.45,8.45,0,0,0-12,12l5.27,5.28a1,1,0,0,0,1.42,0L18,16.43A8.45,8.45,0,0,0,18,4.48ZM16.57,15,12,19.59,7.43,15a6.46,6.46,0,1,1,9.14,0ZM9,7.41a4.32,4.32,0,0,0,0,6.1,4.31,4.31,0,0,0,7.36-3,4.24,4.24,0,0,0-1.26-3.05A4.3,4.3,0,0,0,9,7.41Zm4.69,4.68a2.33,2.33,0,1,1,.67-1.63A2.33,2.33,0,0,1,13.64,12.09Z"/></svg>
+            
         </div>
-
-
+        <input class="py-3 text-gray-600 outline-none rounded-lg " type="text" placeholder="Dang">
+        <h1 class="text-slate-500 mt-2 text-2xl items-center">|</h1>
+        <div class="w-12 h-12 flex items-center justify-center ">
+          <svg class="items-center cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="16"
+           height="16" fill="#2E1310" class="bi bi-search" viewBox="0 0 16 16"> <title>Search</title> 
+           <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> </svg>
+        </div>
+        <input class="outline-none py-3 w-8/12 text-gray-500 rounded-lg" type="text" placeholder="Search For resturent and dish">
       </div>
-
-      <div class="hidden xl:flex md:flex lg:flex sm:flex rounded-lg mt-10 ">
-        <div class="h-12 w-12 items-center justify-center ">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff " width="20" height="20" viewBox="0 0 24 24">
-          <path d="M18,4.48a8.45,8.45,0,0,0-12,12l5.27,5.28a1,1,0,0,0,1.42,0L18,16.43A8.45,8.45,0,0,0,18,4.48ZM16.57,15,12,19.59,7.43,15a6.46,6.46,0,1,1,9.14,0ZM9,7.41a4.32,4.32,0,0,0,0,6.1,4.31,4.31,0,0,0,7.36-3,4.24,4.24,0,0,0-1.26-3.05A4.3,4.3,0,0,0,9,7.41Zm4.69,4.68a2.33,2.33,0,1,1,.67-1.63A2.33,2.33,0,0,1,13.64,12.09Z"/></svg>
-          </div>
-
-
-          <input  class="py-3 text-gray-600 outline-none rounded-lg " type="text" placeholder="Dang" name="" id="">
-          <h1 class="text-white mt-2 text-2xl items-center "></h1>
-          <div class="w-12 h-12 flex items-center justify-center" >
-
-            <svg  class="items-center  cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"> <title>Search </title><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> </svg> 
-
-          </div>
-
-<input class="outline-none py-3 w-8/12 text-gray-500 rounded-lg" type="text" placeholder="Search for restaurant and dish" name="" id="">
-      </div>
-
-
     </div>
-  </body>
+    </div>
+    <div class="mt-7 flex items-center justify-center w-full">
+        <div class="max-w-6xl w-11/12 gap-4 flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row flex justify-center">
+            <div class="max-w-6xl w-full lg:mt-4 xl:mt-4 md:mt-4 sm:mt-4 flex gap-4 justify-center">
+                <div class="flex items-end bg-no-repeat bg-cover max-w-md w-6/12 bg-bg1 lg:h-80 sm:h-18 md:h-18
+                 xl:h-80 h-40 bg-white rounded-2xl">
+                    <div class="p-2 xl:h-24 lg:h-24 md:h-24 sm:24 h-12 w-full bg-white
+                    rounded-br-2xl">
+                        <h1 class="text-sm xl:text-2xl lg:text-2xl md:text-2xl text-slate-900">Order Food</h1>
+                    
+                        <p class="hidden text-base xl:flex md:flex lg:flex sm:flex
+                        text-gray-400">Stay home and order to doorstoop</p>
+                        <p class="text-xs xl:hidden md:hidden lg:hidden sm:hidden
+                        text-slate-900">Stay Home and Order....</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
